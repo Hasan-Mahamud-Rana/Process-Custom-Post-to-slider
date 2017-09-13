@@ -1,0 +1,417 @@
+/*
+Theme Name: 	Betheme Child
+Theme URI: 		http://themes.muffingroup.com/betheme
+Author: 		Muffin group
+Author URI: 	http://muffingroup.com
+Description:	Child Theme for Betheme - Premium WordPress Theme
+Template:		betheme
+Version: 		1.6
+*/
+
+/* Theme customization starts here
+-------------------------------------------------------------- */
+
+@font-face {
+    font-family: "Merriweather";
+    src: url(http://graphichouse.dk/promovec-com-ny-2/wp-content/themes/betheme-child/fonts/Merriweather-Regular.ttf);
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Merriweather";
+    src: url(http://graphichouse.dk/promovec-com-ny-2/wp-content/themes/betheme-child/fonts/Merriweather-Light.ttf);
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: "Merriweather";
+    src: url(http://graphichouse.dk/promovec-com-ny-2/wp-content/themes/betheme-child/fonts/Merriweather-Italic.ttf);
+    font-weight: 400;
+    font-style: italic;
+}
+
+strong {
+    font-weight: 900;
+}
+
+/* overskrifter */
+
+.underside-overskrift h2 {
+    font-size: 28px;
+    line-height: 28px;
+}
+    .underside-overskrift p {
+        margin-bottom: 0px;
+    }
+
+/* hvid overskrift */
+.hvid-overskrift h4 {
+    text-transform: uppercase;
+    font-weight: lighter;
+    color: #ffffff;
+}
+
+/* ======================================== */
+/*                  FORSIDE                 */
+/* ======================================== */
+
+    .forside-intro h2 {
+        font-size: 22px;
+        line-height: 26px;
+        text-transform: uppercase;
+        font-weight: 400;
+    }
+    
+    .forside-intro p {
+        margin-bottom: 0px;
+        font-size: 16px;
+        line-height: 25px;
+    }
+
+    .forside-boks h3,
+    .forside-boks h5 {
+        text-transform: uppercase;
+    }
+
+.forside-boks .column_attr a {
+    display: block;
+    padding: 40px 0 20px 0;
+    background-color: #fbb731;
+    -webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+    .forside-boks h3 {
+        color: #fff;
+        font-weight: 300 !important;
+    }
+
+    .forside-boks h5 {
+        margin-bottom: 5px !important;
+    }
+    
+    .forside-boks .column_attr a:hover {
+        background-color: #000;
+        color: #fff;
+        text-decoration: none;
+    }
+        .forside-boks .column_attr a:hover h5 {
+            color: #fff;
+        }
+
+        .forside-boks .column_attr a:after { 
+            -webkit-transition: all 0.3s;
+	       -moz-transition: all 0.3s;
+	       transition: all 0.3s;
+        }
+
+
+.forside-cykelvisning-overskrift h4 {
+    text-transform: uppercase;
+    font-weight: lighter;
+    color: #ffffff;
+}
+
+.forside-ikon-boks .icon_box a .desc {
+    color: #f6f6f6 !important;
+}
+    .forside-ikon-boks .icon_box a:hover .desc {
+        color: #fbb731 !important;
+    }
+
+/* sort ikon på gul baggrund */
+.forside-ikon-boks-underside .icon_box a .desc {
+    color: #031214 !important;
+}
+    .forside-ikon-boks-underside .icon_box a:hover .desc {
+        color: #fff !important;
+    }
+
+/* clients */
+ul.clients .client_wrapper {
+    background: transparent;
+}
+
+/* tab */
+.forside-tab .ui-tabs .ui-tabs-panel,
+.forside-tab .ui-tabs .ui-tabs-nav li {
+    background: #fff !important;
+}
+
+.forside-tab .ui-tabs .ui-tabs-nav {
+    border: 0;
+}
+    .forside-tab .ui-tabs .ui-tabs-nav li[aria-selected="false"] {
+        background: #eaeaea !important;
+    }
+
+.forside-hr .hr_zigzag {
+    padding-bottom: 30px;
+}
+
+.button-forside-tab {
+    margin: 0px !important;
+}
+
+.forside-tab .ui-tabs .ui-tabs-panel .column h2 {
+    margin-top: 20px;
+    font-size: 22px;
+    line-height: 26px;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.forside-tab .ui-tabs .ui-tabs-panel .one-second.column {
+    margin-bottom: 0px;
+}
+
+.ui-tabs .ui-tabs-panel {
+    padding: 25px 20px 20px !important;
+}
+
+/* zoom box */
+.forside-zoom-box .zoom_box .desc .desc_txt {
+    height: 70% !important;
+}
+    .forside-zoom-box .zoom_box .desc .desc_txt p {
+        font-size: 16px; line-height: 20px;
+    }
+
+.forside-zoom-box .zoom_box .desc {
+    background-color: rgba(251, 183, 49, 1) !important;
+}
+
+/* farve */
+    .gul h4 {
+        color: #fbb731;
+    }
+
+/* sign up */
+.sign-up .column_attr a {padding: 20px 0 20px 0;}
+
+    .sign-up a h5 {
+        margin-bottom: 0px !important;
+    }
+
+/* ======================================== */
+/*                 E-BIKES                  */
+/* ======================================== */
+
+.fancy_heading_line .slogan,
+.fancy_heading .inside {
+    color: #031214 !important;
+}
+    .fancy_heading_line .slogan {
+        font-size: 18px;
+    }
+
+.style-simple .zoom_box .desc .desc_txt {
+    height: 60%;
+    background-color: transparent !important;
+}
+
+/* ======================================== */
+/*                 E-BIKES                  */
+/* ======================================== */
+
+.components-black-bar {
+    background-color: #000;
+    color: #fff;
+    display:block;
+    padding: 5px;
+    text-align: center;
+}
+
+.components-boks .column_attr a {
+    display: block;
+    min-height: 250px;
+    background: #f6f6f6; /* For browsers that do not support gradients */
+    /* background: -webkit-linear-gradient(left top, #f6f6f6, #e0e0e0); /* For Safari 5.1 to 6.0 */
+    /* background: -o-linear-gradient(bottom right, #f6f6f6, #e0e0e0); /* For Opera 11.1 to 12.0 */
+    /* background: -moz-linear-gradient(bottom right, #f6f6f6, #e0e0e0); /* For Firefox 3.6 to 15 */
+    /* background: linear-gradient(to bottom right, #f6f6f6, #e0e0e0); /* Standard syntax */
+}
+
+    .components-boks h3 {
+        color: #484848;
+        font-weight: 300 !important;
+        padding: 20px;
+        margin-bottom: 0px;
+    }
+
+    .components-boks a ul {
+        margin: 0 0 15px 37px;
+        color: #484848 !important;
+    }
+        .components-boks a:hover ul {
+            color: #fff !important;
+        }
+        .components-boks a ul li {
+            margin-bottom: 5px;
+        }
+    
+    .components-boks .column_attr a:hover {
+        color: #fff;
+        text-decoration: none;
+    }
+        .components-boks .column_attr a:hover h3 {
+            color: #fff;
+        }
+
+        .components-boks .column_attr a:after { 
+            -webkit-transition: all 0.3s;
+	       -moz-transition: all 0.3s;
+	       transition: all 0.3s;
+        }
+
+/* backgrounds */
+   .bg-grey-1 .column_attr a h3 {
+        color: rgb(147,164,137);
+    }
+
+    .bg-grey-2 .column_attr a h3 {
+        color: rgb(40,77,106);
+    }
+
+    .bg-grey-3 .column_attr a h3 {
+        color: rgb(12,87,38);
+    }
+
+    .bg-grey-4 .column_attr a h3 {
+        color: rgb(88,171,171);
+    }
+
+/* background-hover */
+    .bg-grey-1 .column_attr a:hover {
+        background: rgb(147,164,137);
+    }
+
+    .bg-grey-2 .column_attr a:hover {
+        background: rgb(40,77,106);
+    }
+
+    .bg-grey-3 .column_attr a:hover {
+        background: rgb(12,87,38);
+    }
+
+    .bg-grey-4 .column_attr a:hover {
+        background: rgb(88,171,171);
+    }
+
+/* backgrounds */
+    .bg-knap-1 .components-black-bar {
+        background: rgb(147,164,137);
+    }
+
+    .bg-knap-3 .components-black-bar {
+        background: rgb(40,77,106);
+    }
+
+    .bg-knap-2 .components-black-bar {
+        background: rgb(12,87,38);
+    }
+
+    .bg-knap-4 .components-black-bar {
+        background: rgb(88,171,171);
+    }
+
+/* ======================================== */
+/*            COMPANY PROFILE               */
+/* ======================================== */
+
+.company-profile-team h4.title,
+.company-profile-team .desc_wrapper .desc {
+    color: #ffffff !Important;
+}
+    .company-profile-team .desc_wrapper h4,
+    .company-profile-team .desc_wrapper p {
+        color: #fbb731 !Important;
+    }
+
+.partner-slider .clients_slider .clients_slider_header {display: none;}
+
+/* ======================================== */
+/*                  TEAM                    */
+/* ======================================== */
+
+.team .desc_wrapper h4 {
+    font-size: 16px;
+}
+
+.team .desc_wrapper p.subtitle {
+    font-size: 15px
+}
+
+.team.team_circle .image_frame {
+    width: 150px;
+    height: 150px;
+}
+
+.team-overskrift h3 {
+    font-size: 20px;
+    font-weight: normal;
+}
+
+/* ======================================== */
+/*                 CONTACT                  */
+/* ======================================== */
+
+.contact-box-style .get_in_touch,
+.contact-box-style .get_in_touch ul,
+.contact-box-style .get_in_touch a,
+.contact-box-style .get_in_touch h3 {
+    background-color: #f6f6f6;
+    color: #000 !important;
+}
+
+    .contact-box-style .get_in_touch h3 {font-size: 22px; line-height: 26px;}
+
+/* ======================================== */
+/*                   NEWS                   */
+/* ======================================== */
+
+#Intro .intro-inner {
+    background-color: rgba(0,0,0,.3);
+}
+
+.post-desc .post-title h2.entry-title {
+    font-size: 30px;
+    line-height: 32px;
+}
+    .post-desc .post-title h2.entry-title a {
+        color: #fbb731;
+    }
+
+.image_frame {
+    border-color: #ffffff; 
+}
+
+/* ======================================== */
+/*               BASIC LINE                 */
+/* ======================================== */
+
+.productbox {
+    background-color: #f6f6f6;
+}
+
+.productbox a.button_theme {
+    background-color: rgb(147,164,137);
+}
+
+.productbox .pricing-box .plan-header h2 {
+    font-size: 22px;
+    line-height: 26px;
+    margin: 0;
+}
+
+.hr-dots .hr_dots {
+    margin-bottom: 20px !important;
+}
+    .hr-dots .hr_color,
+    .hr-dots .hr_color hr,
+    .hr-dots .hr_dots span {
+        background: rgb(147,164,137);
+        color: rgb(147,164,137);
+    }
+
